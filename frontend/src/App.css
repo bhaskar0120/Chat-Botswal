@@ -1,0 +1,62 @@
+.app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0.5rem;
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+.mobile{
+  border: 15px solid black;
+  height: 800px;
+  width: 410px;
+  border-radius: 50px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.219);
+}
+
+.dislnd{
+  
+  position: absolute;
+  top: -2vh;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: black;
+  width: 20vw;
+  height: 5vh;
+  border-radius: 50px;
+  
+}
+
+.cameraWrapper{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 0 20px;
+}
+.camera{
+  width: 15px;
+  height: 15px;
+  background-image: radial-gradient(rgb(0, 0, 255) ,rgba(126, 123, 123, 0.356) 50%);
+  border-radius: 100%;
+
+}
+
+.screen{
+  background-image:linear-gradient(to right bottom, #e0aaff, #5a189a) ;
+  height: 100%;
+  width: 100%;
+
+}
+
+.inputChatBox{
+  background-color: white;
+  position: absolute;
+  bottom:0;
+  width:100%;
+  height:8%;
+  
+}
