@@ -1,0 +1,38 @@
+.bubbleUser{
+  float: right;
+  /* background-color: red; */
+  padding: 10px 20px;
+  border-radius: 20px 0 20px 20px;
+  /* background-color: #e1bef6; */
+  background: #005C97;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.166);
+  color: white;
+  font-family: gilroy;
+  margin-bottom: 10px;
+  word-break: '-';
+}
+
+.bubbleBot{
+    float: left;
+  /* background-color: red; */
+  padding: 10px 20px;
+  border-radius:  0 20px 20px 20px;
+  background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+  
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.166);
+  color: rgb(245, 245, 245);
+  font-family: gilroy;
+  margin-bottom: 10px;
+  word-break:break-word;
+  
+  max-width: 100%;
+  
+}

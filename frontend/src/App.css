@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .app{
   display: flex;
   justify-content: center;
@@ -25,9 +31,10 @@ body::-webkit-scrollbar{
   left: 50%;
   transform: translateX(-50%);
   background-color: black;
-  width: 20vw;
-  height: 5vh;
+  width: 186px;
+  height: 45px;
   border-radius: 50px;
+  z-index: 1;
   
 }
 
@@ -50,6 +57,8 @@ body::-webkit-scrollbar{
   height: 100%;
   width: 100%;
 
+
+
 }
 
 .inputChatBox{
@@ -58,5 +67,68 @@ body::-webkit-scrollbar{
   bottom:0;
   width:100%;
   height:8%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.inputBox{
+  width: 270px;
+  height: 40px;
+  border: none;
+  background-color: rgb(217, 216, 216);
+  border-radius: 40px;
+  padding:15px;
+  font-family: gilroy,sans-serif;
   
+  
+}
+.inputBox::placeholder{
+  font-family: gilroy,sans-serif;
+  
+}
+
+.inputBox:focus,inputBox:active{
+  border: none;
+  outline: none;
+}
+
+.submit{
+  background-image: linear-gradient(to right bottom, #e0aaff, #5a189a);
+  padding: 10px;
+  border-radius:20px 0px;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  font-family: gilroy;
+  cursor: poin;
+  letter-spacing: 1px;
+
+}
+
+.titleContainer{
+  position: absolute;
+  color: white;
+  font-family: gilroy;
+  padding: 10px;
+  border-radius: 3px;
+  width: 100%;
+  height: 10%;
+  background-color: rgba(0, 0, 0, 0.219);
+  text-align: center;
+  padding-top: 28px;
+ 
+}
+
+.chatBox{
+  position: absolute;
+  top: 10%;
+  height:82%;
+  width: 100%;
+  padding: 30px 10px;
+  overflow: scroll;
+}
+
+.chatBox::-webkit-scrollbar{
+  display: none;
 }
